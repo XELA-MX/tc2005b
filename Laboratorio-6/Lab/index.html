@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 06</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="btn.css">
+</head>
+
+<body>
+    <nav>
+
+        <div class="header">
+            <h1>Laboratorio 06</h1>
+            <p>Bienvenido</p>
+        </div>
+
+        <ul>
+            <li class="navItem"><a href="index.html">Inicio</a></li>
+            <li class="navItem"><a href="password/password.html">Validar Password</a></li>
+            <li class="navItem"><a href="">Comprar Productos</a></li>
+        </ul>
+    </nav>
+
+    <div class="cardContainer">
+        <div class="card">
+            <h2>Validar Password</h2>
+            <p>Con JavaScript y HTML5 [y quizás CSS], desarrolla una página para validar passwords. La página debe tener
+                una forma con 2 campos, el campo de password, y el campo de verificar password. Utiliza al máximo tu
+                creatividad e ingeniería para que la página sea un validador de passwords de estado del arte, con la
+                mejor experiencia para el usuario.</p>
+            <a class="btn" target="_self" href="password/password.html">Ir</a>
+        </div>
+        <div class="card">
+            <h2>Comprar Productos</h2>
+            <p>Con JavaScript y HTML5 [y quizás CSS], desarrolla una página para vender 3 productos de tu interés, con
+                los precios y promociones a tu gusto. La página debe permitir al usuario escoger la cantidad de unidades
+                de cada producto, y debe mostrar el precio total, el IVA que se está cargando, y toda la información que
+                consideres pertinente para que la experiencia del usuario sea la mejor. La página debe validar los
+                rangos de las unidades de cada producto.</p>
+            <a class="btn">Ir</a>
+        </div>
+    </div>
+
+    <div class"questionBoxContainer">
+        <div class="questionBox">
+            <p class="questionText"> ¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los
+                inputs de las formas antes de enviar los datos al servidor?
+            </p>
+            <p class="answer">
+                Porque es una buena práctica validar los inputs antes de enviarlos al servidor, ya que esto evita que
+                se envíen datos incorrectos o mal formateados, lo que puede causar errores en el servidor y en la
+                base de datos. Además, al validar los inputs en el lado del cliente, se mejora la experiencia del
+                usuario al proporcionar retroalimentación inmediata sobre los errores de entrada.
+            </p>
+        </div>
+        <div class="questionBox">
+            <p class="questionText"> ¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?
+            </p>
+            <p class="answer">
+                Puedes saltarte la seguridad de las validaciones hechas con JavaScript deshabilitando JavaScript en el
+                navegador o utilizando herramientas como Postman para enviar solicitudes HTTP directamente al servidor
+                sin pasar por la interfaz de usuario. También puedes modificar el código JavaScript en el navegador
+                utilizando las herramientas de desarrollo del navegador para omitir las validaciones.
+            </p>
+        </div>
+        <div class="questionBox">
+            <p class="questionText"> Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por
+                qué la primera pregunta dice que es una buena práctica?
+            </p>
+            <p class="answer">
+                Porque aunque las validaciones de JavaScript pueden ser eludidas, siguen siendo una buena práctica para
+                mejorar la experiencia del usuario y reducir la carga en el servidor. Las validaciones del lado del
+                cliente son una primera línea de defensa que puede ayudar a prevenir errores comunes y mejorar la
+                usabilidad de la aplicación. Sin embargo, siempre se deben realizar validaciones adicionales en el lado
+                del servidor para garantizar la seguridad y la integridad de los datos.
+            </p>
+        </div>
+
+        <footer>
+            <p>Laboratorio 06</p>
+            <p>Desarrollado por Emilio Peralta</p>
+            <p>Fecha: 31/03/2025</p>
+            <p>Versión: 1.0</p>
+            <p>Contacto: <a href="mailto:a01712354@tec.mx">a01712354@tec.mx</a></p>
+        </footer>
+
+        <canvas id="brainCanvas"></canvas>
+
+        <script src="bg.js"></script>
+
+</body>
+
+</html>
