@@ -63,7 +63,7 @@ class Connection {
 }
 
 // Crear neuronas y conexiones
-const neurons = Array(210).fill().map(() => new Neuron());
+const neurons = Array(200).fill().map(() => new Neuron());
 const connections = [];
 
 for (let i = 0; i < neurons.length; i++) {
