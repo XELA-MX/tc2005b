@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "3361077529fc4eb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "534f96e71fa97d4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "749d89c3abc2bb53",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a7dacc1fa79af53",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbef9d59ebe01974",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91d9022ecbb9bf28",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1470d98e544532fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "e0446ad54c61e15d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "169b6a432930364c",
+    "type": "split",
+    "children": [
+      {
+        "id": "661d3959e37b896d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64758b95bd77c68a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Alex/Manejo de Ramas en git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Manejo de Ramas en git"
+            }
+          },
+          {
+            "id": "617bd51a1085bdcd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "a69c7df3074865a4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "a45f94b8a5aba9aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Scott/Untitled.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "91d9022ecbb9bf28",
+  "lastOpenFiles": [
+    "Alex/Bienvenido.md",
+    "Denise/CSS.md",
+    "Denise/Wireframes vs prototipos.md",
+    "Denise/Frameworks.md",
+    "Scott/Posición.md",
+    "Scott/Introducción al desarrollo web.md",
+    "Scott/Intro al DOM.md",
+    "Scott/AJAX y APIs.md",
+    "Scott/Async Javascript!.md",
+    "Scott/CSS.md",
+    "Enrique Calderon/Administración de Proyectos.md",
+    "Enrique Calderon/All about pools.md",
+    "Enrique Calderon/Gestión de alcance.md",
+    "IMGS/Pasted image 20250426001605.png",
+    "Lectura - Gestión de la comunicación.md",
+    "Modulos node y NPM.md",
+    "Scott/Intro NodeJS.md",
+    "IMGS/Pasted image 20250424003838.png",
+    "IMGS/Pasted image 20250422210321.png",
+    "IMGS/Pasted image 20250422210223.png",
+    "IMGS/Pasted image 20250422205119.png",
+    "IMGS/Pasted image 20250422205100.png",
+    "IMGS/Pasted image 20250422204558.png",
+    "IMGS/Pasted image 20250421231316.png",
+    "Enrique Calderon/Reglas de Traslado del Modelo Entidad-Relación a Tablas.md",
+    "IMGS/Pasted image 20250421163155.png",
+    "IMGS/Pasted image 20250421162941.png",
+    "Scott/JS.md",
+    "Scott/Responsive CSS and Flexbox.md",
+    "Socio Formador 1 - Cuenta Fácil.md",
+    "Scott/Transiciones.md",
+    "Enrique Calderon/Lenguaje SQL.md",
+    "Scott/Display.md",
+    "Enrique Calderon/Introducción al Modelo ER.md",
+    "Lectura DBMS.md",
+    "Alex/Bienvenida a JS.md",
+    "Scott",
+    "IMGS",
+    "Alex",
+    "Denise",
+    "Enrique Calderon"
+  ]
+}
