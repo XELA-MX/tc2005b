@@ -1,0 +1,49 @@
+body {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .sidebar {
+    background-color: #468faf;
+    height: 100vh;
+    padding-top: 1rem;
+    box-shadow: #468faf 0px 0px 10px;
+  }
+  
+  .sidebar h5,
+  .sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 0.75rem 1rem;
+  }
+  
+  .sidebar a:hover {
+    background-color: #3a7b9d;
+  }
+  
+  .navbar {
+    background-color: #468faf;
+  }
+  
+  .navbar .navbar-brand {
+    color: #ffffff;
+  }
+  
+  .content h2 {
+    color: #468faf;
+  }
+  
+  .content {
+    padding: 2rem;
+  }
+  
+  .card-custom {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+  }
+  
+  .card-title {
+    color: #468faf;
+  }
+  

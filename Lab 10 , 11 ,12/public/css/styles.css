@@ -1,0 +1,63 @@
+.bgImage {
+    background-image: url("/src/Fondo.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.t1 {
+    margin: 8%;
+    margin-bottom: 10%;
+}
+
+.testimonials {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.btn1 {
+    background-color: #ffe066;
+    padding: 8px 25px;
+    border-radius: 10px;
+    color: #353a40;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: #468faf;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-dark {
+    border-radius: 10px;
+}
+
+.aboutUs {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 80%;
+}
+
+.c1 {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ttx1 {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.howItWorks {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 80%;
+}  
